@@ -7,16 +7,24 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Journaling App")
-                .font(.title)
-                
+        TabView{
+            DailyTab()
+                .tabItem{
+                    Image(systemName: "chart.bar")
+                    Text("Daily")
+                }
         }
-        .padding()
+        
+        
+        }
     }
-}
+
+
+
 
 #Preview {
     ContentView()

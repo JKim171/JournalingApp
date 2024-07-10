@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F939F932C366BC2004782B5 /* DailyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939F922C366BC2004782B5 /* DailyTab.swift */; };
+		3F939F952C366C05004782B5 /* NotebookTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939F942C366C05004782B5 /* NotebookTab.swift */; };
+		3F939F972C366C43004782B5 /* TrackingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939F962C366C42004782B5 /* TrackingTab.swift */; };
 		900EDE1C2C2CFDFC00EAD773 /* JournalingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EDE1B2C2CFDFC00EAD773 /* JournalingAppApp.swift */; };
 		900EDE1E2C2CFDFC00EAD773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EDE1D2C2CFDFC00EAD773 /* ContentView.swift */; };
 		900EDE202C2CFDFF00EAD773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900EDE1F2C2CFDFF00EAD773 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F939F922C366BC2004782B5 /* DailyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTab.swift; sourceTree = "<group>"; };
+		3F939F942C366C05004782B5 /* NotebookTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookTab.swift; sourceTree = "<group>"; };
+		3F939F962C366C42004782B5 /* TrackingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTab.swift; sourceTree = "<group>"; };
 		900EDE182C2CFDFC00EAD773 /* JournalingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900EDE1B2C2CFDFC00EAD773 /* JournalingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalingAppApp.swift; sourceTree = "<group>"; };
 		900EDE1D2C2CFDFC00EAD773 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F939F912C366B39004782B5 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3F939F922C366BC2004782B5 /* DailyTab.swift */,
+				3F939F942C366C05004782B5 /* NotebookTab.swift */,
+				3F939F962C366C42004782B5 /* TrackingTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 		900EDE0F2C2CFDFC00EAD773 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +112,7 @@
 			children = (
 				900EDE1B2C2CFDFC00EAD773 /* JournalingAppApp.swift */,
 				900EDE1D2C2CFDFC00EAD773 /* ContentView.swift */,
+				3F939F912C366B39004782B5 /* Tabs */,
 				900EDE1F2C2CFDFF00EAD773 /* Assets.xcassets */,
 				900EDE212C2CFDFF00EAD773 /* Preview Content */,
 			);
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F939F952C366C05004782B5 /* NotebookTab.swift in Sources */,
 				900EDE1E2C2CFDFC00EAD773 /* ContentView.swift in Sources */,
 				900EDE1C2C2CFDFC00EAD773 /* JournalingAppApp.swift in Sources */,
+				3F939F932C366BC2004782B5 /* DailyTab.swift in Sources */,
+				3F939F972C366C43004782B5 /* TrackingTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
